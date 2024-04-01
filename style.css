@@ -51,3 +51,21 @@ button {
     color:#E5E7EB;
     border-radius:12px;
 }
+
+.section3 {
+    display:flex;
+    flex-direction:column;
+}
+
+.icons {display:flex;
+    flex-direction:row;
+justify-content:space-between;}
+
+.icon-captions {
+    display:flex;
+    font-size: 18px;
+    font-weight:400;
+    justify-content: space-between;
+}
+ul {margin:0;
+padding:0}
