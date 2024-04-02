@@ -7,6 +7,7 @@ body {
     background-color:#4E82B1;
     font-family: Roboto, sans-serif;
     color: #E5E7EB;
+    margin:0;
 }
 
 .header {
@@ -30,6 +31,7 @@ a{text-decoration: none;
 .section2 {
     display:flex;
     justify-content: space-between;
+    margin: 22px 80px;
 }
 .left-box {
     display:flex;
@@ -55,17 +57,46 @@ button {
 .section3 {
     display:flex;
     flex-direction:column;
+    align-items: center;
+    background-color: #ffffff;
+
 }
 
-.icons {display:flex;
-    flex-direction:row;
-justify-content:space-between;}
+.icon {display:flex;
+    flex-direction:column;
+justify-content:center;
+align-items:center;
+gap:0
+}
 
-.icon-captions {
+.icon-group {
     display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:22px;
+}
+
+.text{
     font-size: 18px;
     font-weight:400;
-    justify-content: space-between;
+    color: #000000;
+    width:100px;
+    text-align:center;
+    margin-bottom:22px;
+    margin-top:10px
+}
+
+.headertext {
+    font-size: 18px;
+    font-weight:400;
+    color:#E5E7EB;
+}
+
+.header3 {
+    font-size: 36px;
+    font-weight:800;
+    color:#4E82B1;
+
 }
 ul {margin:0;
 padding:0}
