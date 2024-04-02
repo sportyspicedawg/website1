@@ -47,12 +47,13 @@ a{text-decoration: none;
 button {
     font-family: Roboto, sans-serif;
     border: none;
-    background: #8DA391;
+    background: #E5E7EB;
     width: 125px;
     padding: 8px 24px;
-    color:#E5E7EB;
+    color:#8DA391;
     border-radius:12px;
 }
+
 
 .section3 {
     display:flex;
@@ -110,3 +111,29 @@ padding: 60px 200px;
 }
  #signature {align-self:flex-end;
 font-weight:bold}
+
+.section5 {
+    background-color: #ffffff;
+    display:flex;
+justify-content: center;}
+
+.cta {
+background-color: #8DA391;
+display:flex;
+flex-direction:row;
+justify-content: space-around;
+padding: 12px 28px;
+margin: 100px 400px;
+align-items: center;
+}
+
+.cta-top {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom:0;
+}
+
+.cta-bottom {
+    margin-top:0;
+}
+
