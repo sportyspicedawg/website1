@@ -96,7 +96,17 @@ gap:0
     font-size: 36px;
     font-weight:800;
     color:#4E82B1;
-
 }
-ul {margin:0;
-padding:0}
+
+.quotebox {font-style: italic;
+color:#1F2937;
+background-color: #E5E7EB;
+display:flex;
+flex-direction:column;
+justify-content: space-around;
+align-items: center;
+gap:12px;
+padding: 60px 200px;
+}
+ #signature {align-self:flex-end;
+font-weight:bold}
